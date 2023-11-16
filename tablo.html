@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>HTML Tablolar</title>
+    </head>
+    <body>
+        <h1>Tablo ve Sütun Birleştirme</h1>
+        <table border="1"><!--TABLO OLUŞTUR-->
+            <tr> <!--SATIR EKLE-->
+                <td>1. Sütun</td> <!--SÜTUN OLUŞTUR-->
+                <td>2. Sütun</td>
+                <td>3. Sütun</td>
+            </tr>
+            <tr>
+                <td colspan="3">2</td>
+                
+            </tr>
+            <tr>
+                <td colspan="5">3</td>
+            
+            </tr>
+            <tr>
+                <td  colspan="2">3</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <h1>Satır Birleştirme</h1>
+        <table border="1" width="200px">
+            <tr>
+                <td rowspan="3">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td rowspan="2">4</td>
+            </tr>
+            <tr>
+                <!-- <td>1</td> -->
+                <td>2</td>
+                <td rowspan="2">3</td>
+             
+            </tr>
+            <tr>
+                <!-- <td>1</td> -->
+                <td>2</td>
+                <!-- <td>3</td> -->
+                <td>4</td>
+            </tr>
+        </table>
+        <h1>BAŞLIKLI TABLO</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1></h1>
+        <table border="1">
+            <tr>
+                <td colspan="9">A</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td colspan="3">A</td>
+                <td>A</td>
+                <td>A</td>
+                <td>A</td>
+                <td colspan="2">A</td>
+               
+            </tr>
+            <tr>
+                <td rowspan="3">A</td>
+                <td>A</td>
+                <td>A</td>
+                <td colspan="4">A</td>
+               
+                <td>A</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>A</td>
+                <td>A</td>
+                <td colspan="2">A</td>
+                <td>A</td>
+                <td rowspan="2">A</td>
+                <td>A</td>
+            </tr>
+            <tr>
+
+                <td colspan="5">A</td>
+               
+                <td>A</td>
+                <td>A</td>
+            </tr>
+        </table>
+
+        <img src="images/Odev.PNG" />
+    </body>
+</html>

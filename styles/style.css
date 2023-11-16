@@ -1,0 +1,128 @@
+/* CLASS ve ID Kullanılır */
+
+body{
+    background-color:burlywood;
+}
+
+/* CLASS . (nokta) ile tanımlanır */
+
+.anaGovde
+{
+    background: beige;
+    color: black;
+    font-size: 26px;
+}
+
+.anaDiv{
+    /*GENİŞLİK*/
+    width: 150px;
+    width: 50%;
+
+    /* YÜKSEKLİK */
+    height: 500px;
+    height: 40%;
+    /* height: 100vh; RESPONSIVE */
+
+    /*HİZLAMA*/
+    margin-top: 25px;
+    margin-right: 250px;
+    margin-bottom: 80px;
+    margin-left: 120px;
+
+    margin:150px;
+
+    margin:80px 100px;
+
+    margin:180px 150px 320px 35px;
+
+}
+.altDiv{
+    /* width: 80%; */
+    margin: 10px 45px 0 15px;
+
+    padding:20px 50px 35px 20px;
+    padding:80px 100px;
+
+    padding-top: 25px;
+    padding-right: 250px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+}
+
+.gorsel{
+    margin:25px;
+    width: 50%;
+    height: 180px;
+
+    border-top: 2px solid black;
+    border-right:2px dotted red;
+    border-bottom:2px dashed blue;
+    border-left: 2px double brown;
+
+    border: 3px solid brown; 
+
+    border-radius: 25%;
+
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 80px;
+
+}
+
+
+.img {
+   background-color: aquamarine;
+   background-image: url('../images/gazi.png');
+   /* background-position: right bottom; */
+   /* background-size: cover; */
+   background-size: 50%;
+   background-repeat: no-repeat;
+   background-repeat: repeat-y;
+   background-size: cover;
+   /* background-position: center; */
+
+   background: center/contain url('../images/Odev.PNG') red no-repeat;
+
+}
+
+.resim{
+    width: 100%;
+    border-radius: 25%;
+
+    border:3px solid black;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 80px;
+}
+
+.resimUrl {
+    width: 50%;
+    height: 120px;
+    background: center/contain url('../images/Odev.PNG') red no-repeat;
+
+}
+
+.url {
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    /* text-decoration: none; */
+
+    margin:25px;
+}
+.url a{
+    margin:25px;
+    
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: overline dotted;
+    text-decoration: underline dashed darkgoldenrod;
+    text-shadow: 5px 10px burlywood;
+
+    font-size
+    : 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
